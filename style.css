@@ -1,0 +1,21 @@
+*{
+    text-align: center;
+}
+.done{
+    text-decoration: line-through;
+    color:  green;
+}
+
+.container img{
+    height: 15px;
+    width: 15px;
+    margin-left: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+}
+li img:hover{
+    background-color: rgb(105, 105, 105);
+}
