@@ -7,15 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>non-styled to-do list</h1>
     <div class="container">
-        <input type="text" id="inputField">
-        <button onclick="addTask()">add</button>
-        <ul id="list">
-            
-        </ul>
+        <h1 style="margin: 20px; color: #a838cd; font-size: 4rem;">ToDo List</h1>
+        <div id="subcontainer">
+    <div class="todo">
+        <div id="row">
+            <input type="text" id="inputField" placeholder="Enter Your Todo">
+            <button onclick="addTask()">add</button>
+        </div>
+        <ul id="list"> </ul>
         <p></p>
     </div>
+</div>
+<p style="margin: 50px; color: rgb(74, 0, 0); font-size: 20px;"> Click the todo mark it done</p>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
